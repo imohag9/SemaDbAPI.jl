@@ -5,6 +5,7 @@ DocMeta.setdocmeta!(SemaDbAPI, :DocTestSetup, :(using SemaDbAPI); recursive=true
 
 makedocs(;
     modules=[SemaDbAPI],
+    checkdocs = :exports,
     authors="imohag9 <souidi.hamza90@gmail.com> and contributors",
     sitename="SemaDbAPI.jl",
     format=Documenter.HTML(;
