@@ -17,7 +17,7 @@ makedocs(;
         "Collections" => "collections.md",
         "Points" => "points.md",
         "Search" => "search.md",
-        "Models" => "models.md",
+        "Models" => "api_reference.md",
         "Search" => "search.md",
         ],
 )
