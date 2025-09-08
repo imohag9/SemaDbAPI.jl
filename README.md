@@ -106,7 +106,7 @@ search_res = search_point(client, "user1", "mycollection", search_req)
 
 # Display results
 for point in search_res.points
-    println("Point ID: $(point._id), Distance: $(point.distance)")
+    println("Point ID: $(point._id)")
 end
 
 # Clean up

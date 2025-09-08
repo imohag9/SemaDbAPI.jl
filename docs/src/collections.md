@@ -8,16 +8,6 @@ Collections are the primary organizational unit in SemaDB, similar to tables in 
 
 ## Creating Collections
 
-```@docs
-CreateCollectionRequest
-IndexSchemaValue
-IndexVectorVamanaParameters
-IndexVectorFlatParameters
-IndexTextParameters
-IndexStringParameters
-create_collection
-```
-
 ### Example: Creating a Collection with Vamana Index
 
 ```julia
@@ -51,13 +41,7 @@ req = CreateCollectionRequest(id = "text_data", indexSchema = ischema)
 create_collection(client, "user1", req)
 ```
 
-## Managing Collections
 
-```@docs
-get_collection
-list_collections
-delete_collection
-```
 
 ### Example: Listing Collections
 

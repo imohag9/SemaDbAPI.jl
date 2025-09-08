@@ -9,11 +9,7 @@ The search functionality in SemaDB allows you to find points based on various cr
 
 ## Basic Search
 
-```@docs
-SearchRequest
-SearchPointsResponse
-search_point
-```
+
 
 ### Example: Simple Vector Search
 
@@ -35,33 +31,6 @@ for point in results.points
 end
 ```
 
-## Search Options by Type
-
-### Vector Search Options
-
-```@docs
-SearchVectorVamanaOptions
-SearchVectorFlatOptions
-```
-
-### Text Search Options
-
-```@docs
-SearchTextOptions
-```
-
-### String Search Options
-
-```@docs
-SearchStringOptions
-SearchStringArrayOptions
-```
-
-### Numeric Search Options
-
-```@docs
-SearchNumberOptions
-```
 
 ## Query Composition
 
@@ -106,11 +75,7 @@ search_req = SearchRequest(query = combined_query, limit = 10)
 results = search_point(client, "user1", "vectors", search_req)
 ```
 
-## Sorting Results
 
-```@docs
-SortOption
-```
 
 ### Example: Sorting by Metadata
 

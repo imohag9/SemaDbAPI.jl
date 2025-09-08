@@ -9,11 +9,6 @@ Points represent individual data items stored in a collection. Each point contai
 
 ## Inserting Points
 
-```@docs
-InsertPointsRequest
-insert_point
-```
-
 ### Example: Inserting Multiple Points
 
 ```julia
@@ -56,10 +51,7 @@ insert_point(client, "user1", "text_data", insert_req)
 
 ## Updating Points
 
-```@docs
-UpdatePointsRequest
-update_point
-```
+
 
 ### Example: Updating Points
 
@@ -76,13 +68,6 @@ update_req = UpdatePointsRequest(
 update_point(client, "user1", "vectors", update_req)
 ```
 
-## Deleting Points
-
-```@docs
-DeletePointsRequest
-DeletePointsResponse
-delete_point
-```
 
 ### Example: Deleting Points by ID
 
