@@ -34,3 +34,39 @@ include("models/model_SearchVectorVamanaOptions.jl")
 include("models/model_SortOption.jl")
 include("models/model_UpdatePointsRequest.jl")
 include("models/model_UpdatePointsResponse.jl")
+
+export BinaryQuantizerParameters
+export CreateCollectionRequest
+export DeletePointsRequest
+export DeletePointsResponse
+export DistanceMetric
+export FailedPointsInner
+export GetCollectionResponse
+export GetCollectionResponseShardsInner
+export IndexSchemaValue
+export IndexStringParameters
+export IndexTextParameters
+export IndexVectorFlatParameters
+export IndexVectorVamanaParameters
+export InlineObject
+export InlineObject1
+export InsertPointsRequest
+export InsertPointsResponse
+export InsertPointsResponseFailedRangesInner
+export ListCollectionResponse
+export ListCollectionResponseCollectionsInner
+export PointAsObject
+export ProductQuantizerParameters
+export Quantizer
+export Query
+export SearchNumberOptions
+export SearchPointsResponse
+export SearchRequest
+export SearchStringArrayOptions
+export SearchStringOptions
+export SearchTextOptions
+export SearchVectorFlatOptions
+export SearchVectorVamanaOptions
+export SortOption
+export UpdatePointsRequest
+export UpdatePointsResponse

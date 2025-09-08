@@ -1,4 +1,4 @@
-```markdown
+
 ```@meta
 CurrentModule = SemaDbAPI
 ```
